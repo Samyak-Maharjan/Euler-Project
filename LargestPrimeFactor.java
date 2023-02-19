@@ -22,7 +22,7 @@ public class LargestPrimeFactor{
         }
         else{
             for(Long i=3L;i<=num;i=i+2){
-                System.out.println(i);
+                //System.out.println(i);
                 if(num%i==0){
                     if(primechk(i)){
                         largest=i;
