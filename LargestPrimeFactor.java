@@ -1,4 +1,3 @@
-//Worked for the example 13195 but not tried for 600851475143 cause it was taking too long but ig it works
 import java.lang.Math;
 public class LargestPrimeFactor{
     public static boolean primechk(Long n) {
