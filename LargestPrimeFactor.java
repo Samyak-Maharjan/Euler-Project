@@ -1,8 +1,9 @@
 //Worked for the example 13195 but not tried for 600851475143 cause it was taking too long but ig it works
+import java.lang.Math;
 public class LargestPrimeFactor{
-    public static boolean primechk(int n) {
+    public static boolean primechk(Long n) {
         boolean flag=true;
-        for(long i=2;i<n/2;i++){
+        for(long i=2L;i<Math.sqrt(n);i++){
             if(n%i==0) {
                 flag=false;
                 break;
@@ -11,7 +12,7 @@ public class LargestPrimeFactor{
         return flag;
     }
     public static void main(String[] args) {
-        long num=13195L,largest=0;
+        long num=600851475143L,largest=0L;
         if(num<=1) {
             System.out.println("No prime factors");
         }
@@ -20,8 +21,8 @@ public class LargestPrimeFactor{
             System.out.println(largest);
         }
         else{
-            for(int i=1;i<=num;i=i+2){
-                //System.out.println(i);
+            for(Long i=3L;i<=num;i=i+2){
+                System.out.println(i);
                 if(num%i==0){
                     if(primechk(i)){
                         largest=i;
