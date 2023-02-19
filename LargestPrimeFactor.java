@@ -1,4 +1,4 @@
-//Worked for the example 13195 but not for 600851475143 but ig it works
+//Worked for the example 13195 but not tried for 600851475143 cause it was taking too long but ig it works
 public class LargestPrimeFactor{
     public static boolean primechk(int n) {
         boolean flag=true;
