@@ -1,8 +1,10 @@
 import java.lang.Math;
 public class LargestPrimeFactor{
     public static boolean primechk(Long n) {
-        boolean flag=true;
+        boolean flag=false;
+        if(n==2 || n==3) return true;
         for(long i=2L;i<Math.sqrt(n);i++){
+            flag=true;
             if(n%i==0) {
                 flag=false;
                 break;
