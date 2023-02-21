@@ -3,7 +3,7 @@ public class LargestPrimeFactor{
     public static boolean primechk(Long n) {
         boolean flag=false;
         if(n==2 || n==3) return true;
-        for(long i=2L;i<Math.sqrt(n);i++){
+        for(long i=2L;i<=Math.sqrt(n);i++){
             flag=true;
             if(n%i==0) {
                 flag=false;
@@ -13,7 +13,7 @@ public class LargestPrimeFactor{
         return flag;
     }
     public static void main(String[] args) {
-        long num=600851475143L,largest=0L;
+        long num=6857L,largest=0L;
         if(num<=1) {
             System.out.println("No prime factors");
         }
