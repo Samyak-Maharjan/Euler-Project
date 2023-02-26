@@ -10,7 +10,7 @@ public class findNthPrime {
     }
     static ArrayList<Integer> genPrime(int n){
         ArrayList<Integer> list=new ArrayList<>();
-        int limit=n,i=0,stuff=0;
+        int limit=n,i=0;
         while(limit!=0){
             if(primeck(i)){
                 list.add(i);
