@@ -1,6 +1,6 @@
 import java.lang.Math;
 import java.util.ArrayList;
-public class findNthPrime {
+class findNthPrime {
     static boolean primeck(int n){
         if(n==1||n==0) return false;
         for(int i=2;i<=Math.sqrt(n);i++){

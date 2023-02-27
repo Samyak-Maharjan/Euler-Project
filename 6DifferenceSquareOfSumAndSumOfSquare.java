@@ -1,4 +1,4 @@
-public class DifferenceSquareOfSumAndSumOfSquare {
+class DifferenceSquareOfSumAndSumOfSquare {
     static double SumOfSquare(int n){
         double sos=0;
         sos=((n*(n+1)*(2*n+1))/6);

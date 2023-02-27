@@ -1,5 +1,5 @@
 import java.lang.Math;
-public class LargestPrimeFactor{
+class LargestPrimeFactor{
     public static boolean primechk(Long n) {
         boolean flag=false;
         if(n==2 || n==3) return true;
