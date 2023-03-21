@@ -1,4 +1,4 @@
-public class LargestProdInGrid {
+class LargestProdInGrid {
     public static void main(String[] args) {
 
     }
